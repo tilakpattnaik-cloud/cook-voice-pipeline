@@ -91,7 +91,7 @@ PRESET_SCENARIOS = {
 
 st.title("Cook Voice Note Pipeline — Prototype")
 st.caption(
-    "Cook voice note → extraction → catalog match / history reorder → ops ratifies → "
+    "Cook voice note → extraction → catalog match / history reorder → ops resolves quantity + SKU → "
     "budget check → reply to cook → approve. Built as a hands-on demo, not a production system."
 )
 
@@ -109,12 +109,6 @@ with st.sidebar:
         st.session_state["voice_note_text_value"] = preset["voice_note"]
         st.session_state["last_scenario"] = scenario_name
 
-    # A widget's session_state key can only be written to BEFORE that widget
-    # renders in a given script run — not after. So a transcription result
-    # from the button below (which fires after the text_area has already
-    # rendered) can't write directly into "voice_note_text_value" in the same
-    # run. Instead it's stashed here under a separate key and applied on the
-    # NEXT run, before the widget below is created.
     if "pending_transcript" in st.session_state:
         st.session_state["voice_note_text_value"] = st.session_state.pop("pending_transcript")
 
@@ -129,9 +123,7 @@ with st.sidebar:
             st.rerun()
         st.caption(
             "The transcribed text replaces the box above — review or edit it before "
-            "running the pipeline, same as any other input here. Only Hindi/English can "
-            "be tested by speaking it yourself; Bengali would need a Bengali speaker or a "
-            "synthesized clip to verify."
+            "running the pipeline, same as any other input here."
         )
 
     st.divider()
@@ -160,7 +152,7 @@ if run_button:
         st.session_state["extracted"] = extract_json_block(response["message"]["content"])
 
     for key in list(st.session_state.keys()):
-        if key.startswith("pick_"):
+        if key.startswith("pick_") or key.startswith("qty_"):
             del st.session_state[key]
 
 extracted = st.session_state.get("extracted")
@@ -190,7 +182,7 @@ if extracted:
             f"check with the cook: {', '.join(extracted['unparsed_fragments'])}"
         )
 
-    st.subheader("2. Catalog matching & ops ratification")
+    st.subheader("2. Catalog matching & ops resolution")
     matched_items = []
 
     for idx, item in enumerate(extracted.get("items", [])):
@@ -214,7 +206,7 @@ if extracted:
                     st.success(f"✓ From order history — {sku['brand']} {sku['size']}")
 
                 elif status == "reorder_suggested_from_history":
-                    st.warning("📋 No quantity given — suggesting last order for ops to confirm")
+                    st.warning("📋 No quantity given — confirm or adjust the usual reorder")
                     options = match_result["ranked_options"]
 
                     def label_for(sku):
@@ -226,22 +218,19 @@ if extracted:
                     default_idx = next((i for i, o in enumerate(options) if o["brand"] == default_brand), 0)
                     pick_key = f"pick_{idx}"
                     chosen_label = st.selectbox(
-                        f"Ops: confirm reorder (suggested: {default_brand}, "
-                        f"{match_result['suggested_reorder']['typical_qty']} x "
-                        f"{match_result['suggested_reorder']['typical_size']})",
-                        options=[label_for(o) for o in options],
-                        index=default_idx,
-                        key=pick_key,
+                        "Ops: SKU", options=[label_for(o) for o in options], index=default_idx, key=pick_key
                     )
                     chosen_sku = next(o for o in options if label_for(o) == chosen_label)
-                    typical_qty = match_result["suggested_reorder"]["typical_qty"]
-                    match_result["chosen_sku"] = chosen_sku
-                    match_result["price"] = typical_qty * chosen_sku["price"]
-                    match_result["cost_note"] = f"{typical_qty} x {chosen_sku['size']} pack(s) of {chosen_sku['brand']}"
-                    match_result["cost_verified"] = True
 
-                elif status == "needs_clarification_from_cook":
-                    st.error("❗ Cannot proceed — needs a reply from the cook, no ops action possible")
+                    qty_key = f"qty_{idx}"
+                    default_qty = match_result["suggested_reorder"]["typical_qty"]
+                    packs = st.number_input(
+                        "Ops: number of packs", min_value=1, value=default_qty, step=1, key=qty_key
+                    )
+                    match_result["chosen_sku"] = chosen_sku
+                    match_result["price"] = packs * chosen_sku["price"]
+                    match_result["cost_note"] = f"{packs} x {chosen_sku['size']} pack(s) of {chosen_sku['brand']}"
+                    match_result["cost_verified"] = True
 
                 elif status == "no_history_needs_ops_selection":
                     st.warning("No order history — ops must pick a SKU below")
@@ -265,8 +254,32 @@ if extracted:
                     match_result["cost_note"] = note
                     match_result["cost_verified"] = cost is not None
 
-                elif status in ("unmapped_item", "no_catalog_match"):
-                    st.error("No confident catalog match — needs human review")
+                elif status == "no_history_no_qty_needs_ops_selection":
+                    st.warning("No quantity given, no order history — ops picks SKU and sets quantity")
+                    options = match_result["ranked_options"]
+
+                    def label_for3(sku):
+                        rc = sku.get("rating_count")
+                        rating_text = f"★{sku['rating']} ({rc} ratings)" if sku.get("rating") else "no ratings"
+                        return f"{sku['brand']} — {sku['size']} — ₹{sku['price']} — {rating_text}"
+
+                    pick_key = f"pick_{idx}"
+                    chosen_label = st.selectbox(
+                        "Ops: pick the SKU to order", options=[label_for3(o) for o in options], key=pick_key
+                    )
+                    chosen_sku = next(o for o in options if label_for3(o) == chosen_label)
+
+                    qty_key = f"qty_{idx}"
+                    packs = st.number_input("Ops: number of packs", min_value=1, value=1, step=1, key=qty_key)
+                    match_result["chosen_sku"] = chosen_sku
+                    match_result["price"] = packs * chosen_sku["price"]
+                    match_result["cost_note"] = (
+                        f"{packs} x {chosen_sku['size']} pack(s) of {chosen_sku['brand']} (quantity set by ops)"
+                    )
+                    match_result["cost_verified"] = True
+
+                elif status == "unavailable":
+                    st.error("❌ Unavailable — item not recognized in catalog")
 
             if match_result.get("cost_note"):
                 price_text = f" — ₹{match_result['price']}" if match_result.get("price") else ""
@@ -341,11 +354,11 @@ if extracted:
                 st.success(f"✓ {msg['content']}")
 
     st.subheader("5. Approve order")
-    ops_pending = [m for m in matched_items if m.get("needs_cook_reply")]
-    can_approve = len(priced_items) > 0 and not ops_pending
+    unresolved = [m for m in matched_items if m.get("price") is None and m.get("status") != "unavailable"]
+    can_approve = len(matched_items) > 0 and not unresolved
 
-    if ops_pending:
-        st.caption("⚠️ Cannot approve — one or more items are waiting on a reply from the cook.")
+    if unresolved:
+        st.caption("⚠️ Cannot approve — one or more items still need ops to pick a SKU/quantity above.")
 
     if st.button("✅ Approve order for ops placement", disabled=not can_approve, type="primary"):
         st.session_state["order_approved"] = True
@@ -365,15 +378,13 @@ with st.expander("⚠️ Known limitations — read before showing this to anyon
 - **AI-drafted replies are text-only** — no real voice-out (TTS) in the cook's language yet;
   the voice-reply option sends ops's own recorded voice as-is, with no AI involvement.
 - **General-purpose embedding model, not grocery-tuned** — matching can occasionally land on
-  the wrong item (e.g. "wheat" once matched to "Bread" instead of "Wheat Flour"). At production
-  scale this needs a domain-tuned embedding model or a proper item taxonomy, not one-off fixes.
+  the wrong item. At production scale this needs a domain-tuned embedding model or a proper
+  item taxonomy, not one-off fixes.
 - **Ambiguous generic terms can flip between runs** — e.g. "oil" alone may resolve inconsistently.
 - **Single household, single session** — no persistent multi-household spend tracking yet.
 - **Wallet balance is modeled as a simple monthly cap** — in reality M fronts working capital
-  and reconciles with the owner monthly (moving to CRED BNPL in future), not a pre-funded
-  deposit. Functionally similar for budget-gating purposes, but worth naming accurately.
-- **Uncertain speech-to-text fragments surface as an explicit flag** rather than being
-  silently dropped or guessed — but this only catches what the model itself recognizes as
-  uncertain; a confidently-wrong transcription/match can still slip through.
+  and reconciles with the owner monthly, not a pre-funded deposit.
+- **Ops always resolves missing quantity/SKU directly** — the system never blocks waiting on
+  a reply from the cook for these, since a cook won't reliably state a quantity in normal speech.
 """
     )

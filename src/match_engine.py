@@ -62,11 +62,6 @@ def match_from_history(canonical_item, household):
 
 
 def stack_rank_by_rating(matches):
-    """
-    Ranks SKUs for ops to choose from: established items (rating_count >= 20)
-    first, sorted by rating descending; then less-proven items. No SKU is
-    auto-selected — this list is for a human to pick from.
-    """
     established = [
         m for m in matches
         if m.get("rating") is not None and (m.get("rating_count") or 0) >= 20
@@ -170,11 +165,10 @@ def max_affordable_quantity(remaining_budget, sku):
 
 def process_extracted_item(extracted_item, household, catalog):
     """
-    2x2 decision matrix on (quantity given?) x (order history exists?):
-      qty + history      -> auto-match brand from history, cost from given qty
-      qty + no history   -> ops picks a SKU from the ranked list
-      no qty + history   -> suggest reordering last SKU+qty, ops ratifies
-      no qty + no history -> only now do we ask the cook — nothing else to go on
+    Never dead-ends waiting on the cook for a quantity — in practice a cook won't
+    reliably give one. When quantity is missing, ops always gets a SKU choice
+    (from history or the ranked catalog list) plus a manually-enterable quantity,
+    resolved entirely on the ops side.
     """
     raw_name = extracted_item.get("item", "")
     english_name = extracted_item.get("item_english", "")
@@ -200,73 +194,50 @@ def process_extracted_item(extracted_item, household, catalog):
         "cost_note": None,
         "cost_verified": False,
         "needs_ops_action": False,
-        "needs_cook_reply": False,
     }
 
     if not canonical:
-        result["status"] = "unmapped_item"
+        result["status"] = "unavailable"
         result["needs_ops_action"] = True
         return result
 
     matches = get_catalog_matches(canonical, catalog)
     if not matches:
-        result["status"] = "no_catalog_match"
+        result["status"] = "unavailable"
         result["needs_ops_action"] = True
         return result
 
     history_pref = match_from_history(canonical, household)
-
-    if quantity_specified and history_pref:
-        preferred = next(
+    history_sku = None
+    if history_pref:
+        history_sku = next(
             (m for m in matches if m["brand"].lower() == history_pref.get("brand", "").lower()), None
         )
-        if preferred:
-            result["status"] = "matched_from_history"
-            result["matched_sku"] = preferred
-            result["chosen_sku"] = preferred
-        else:
-            result["status"] = "no_history_needs_ops_selection"
-            result["ranked_options"] = stack_rank_by_rating(matches)
-            result["needs_ops_action"] = True
 
-    elif quantity_specified and not history_pref:
+    if quantity_specified and history_sku:
+        result["status"] = "matched_from_history"
+        result["matched_sku"] = history_sku
+        result["chosen_sku"] = history_sku
+
+    elif quantity_specified and not history_sku:
         result["status"] = "no_history_needs_ops_selection"
         result["ranked_options"] = stack_rank_by_rating(matches)
         result["needs_ops_action"] = True
 
-    elif not quantity_specified and history_pref:
-        preferred = next(
-            (m for m in matches if m["brand"].lower() == history_pref.get("brand", "").lower()), None
-        )
-        if preferred:
-            typical_qty = history_pref.get("typical_qty", 1)
-            result["status"] = "reorder_suggested_from_history"
-            result["suggested_reorder"] = {
-                "sku": preferred,
-                "typical_qty": typical_qty,
-                "typical_size": history_pref.get("typical_size"),
-            }
-            result["ranked_options"] = stack_rank_by_rating(matches)  # fallback if ops wants to change
-            result["needs_ops_action"] = True
-            result["chosen_sku"] = preferred
-            result["price"] = typical_qty * preferred["price"]
-            result["cost_note"] = (
-                f"Reorder suggestion: {typical_qty} x {preferred['size']} pack(s) of "
-                f"{preferred['brand']} (same as last order)"
-            )
-            result["cost_verified"] = True
-            return result
-        else:
-            # Historical brand no longer in catalog and no quantity to fall back
-            # on — safer to ask the cook than to guess.
-            result["status"] = "needs_clarification_from_cook"
-            result["needs_cook_reply"] = True
-            return result
+    elif not quantity_specified and history_sku:
+        result["status"] = "reorder_suggested_from_history"
+        result["suggested_reorder"] = {
+            "sku": history_sku,
+            "typical_qty": history_pref.get("typical_qty", 1),
+            "typical_size": history_pref.get("typical_size"),
+        }
+        result["ranked_options"] = stack_rank_by_rating(matches)
+        result["needs_ops_action"] = True
 
-    else:  # not quantity_specified and not history_pref
-        result["status"] = "needs_clarification_from_cook"
-        result["needs_cook_reply"] = True
-        return result
+    else:  # no quantity, no history — ops picks SKU AND enters a quantity, no cook involved
+        result["status"] = "no_history_no_qty_needs_ops_selection"
+        result["ranked_options"] = stack_rank_by_rating(matches)
+        result["needs_ops_action"] = True
 
     if result["chosen_sku"] and quantity_specified:
         cost, note = estimate_cost_for_request(quantity_numeric, unit_english, result["chosen_sku"])

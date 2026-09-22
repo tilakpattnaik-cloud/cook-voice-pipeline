@@ -10,29 +10,16 @@ Messages:
 
 
 def build_reply_options(matched_items):
-    """
-    Builds a small set of consolidated reply options for ops to choose from —
-    one option per DECISION (confirm / ask quantity / ask timing / flag issue),
-    not one message per item. The first option present is marked recommended
-    based on the overall order state.
-    """
-    needs_clarification_items = [
+    unavailable_items = [
         m.get("translated_item") or m.get("source_item_text")
-        for m in matched_items if m.get("needs_cook_reply")
+        for m in matched_items if m.get("status") == "unavailable"
     ]
-    unresolved_items = [
-        m.get("translated_item") or m.get("source_item_text")
-        for m in matched_items if m.get("status") in ("unmapped_item", "no_catalog_match")
-    ]
-    resolved_count = len([m for m in matched_items if m.get("chosen_sku")])
+    resolved_count = len([m for m in matched_items if m.get("price") is not None])
 
     options = []
 
-    if needs_clarification_items:
-        options.append({"key": "ask_quantity", "label": f"How much {', '.join(needs_clarification_items)} do you need?"})
-
-    if unresolved_items:
-        options.append({"key": "ask_clarify_item", "label": f"Checking on {', '.join(unresolved_items)} — one moment."})
+    if unavailable_items:
+        options.append({"key": "ask_clarify_item", "label": f"Checking on {', '.join(unavailable_items)} — one moment."})
 
     if resolved_count:
         options.append({"key": "confirm_all", "label": "Ok, I'll arrange everything."})
@@ -57,5 +44,5 @@ def translate_messages_to_cook(messages, language, model="gemma4:latest"):
     lines = [l.strip() for l in translated.split("\n") if l.strip()]
 
     if len(lines) != len(messages):
-        return messages  # fall back to English rather than risk a misaligned translation
+        return messages
     return lines
