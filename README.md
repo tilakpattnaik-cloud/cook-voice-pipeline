@@ -1,4 +1,4 @@
-# Cook Voice-Note Pipeline
+Cook Voice-Note Pipeline
 
 A hands-on prototype exploring one specific, hard problem in AI-powered home-services
 products: turning a household cook's spoken voice note (Hindi/Bengali/English, often
@@ -8,8 +8,8 @@ Inspired by a conversation about "Home OS" products — AI systems that manage h
 operations end to end, starting with the kitchen. This project doesn't build that whole
 product; it builds and stress-tests the single hardest step in it.
 
-**What this demonstrates
-**
+What this demonstrates
+
 The interesting part of this project isn't the AI's language ability — it's the judgment
 calls about where to trust the AI, where to override it with deterministic logic, and
 where a human has to stay in the loop. Concretely:
@@ -26,9 +26,7 @@ since that's a household preference with no data behind it
 Real local speech-to-text (faster-whisper) wired in, including honest findings about
 how transcription errors can compound with LLM extraction errors in ways a clever
 prompt alone can't fully fix
-
-**Architecture**
-
+Architecture
 Cook voice note (audio or text)
         │
         ▼
@@ -49,9 +47,7 @@ Budget check (deterministic hard gate)
         │
         ▼
 Reply to cook (consolidated options + custom text/voice) → human approval
-
-**Stack**
-
+Stack
 Transcription: faster-whisper ("small" model)
 Extraction / translation: Gemma 4, running locally via Ollama
 Catalog matching: sentence-transformers (all-MiniLM-L6-v2) + ChromaDB
@@ -72,8 +68,7 @@ streamlit run app.py
 Requires Ollama installed and running locally, with the gemma4
 model pulled (ollama pull gemma4).
 
-**Known limitations
-**
+Known limitations
 Mock catalog only (~170 items) — not live grocery-platform inventory
 Product ratings/review counts are fabricated stand-in data
 No real order placement or payment — the flow stops at a human-approved, priced order
