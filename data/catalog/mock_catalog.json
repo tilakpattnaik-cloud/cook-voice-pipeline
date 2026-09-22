@@ -1,0 +1,1992 @@
+[
+  {
+    "item": "Onion",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "1kg",
+    "price": 42,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Onion",
+    "category": "Vegetables",
+    "brand": "Freshveg",
+    "size": "1kg",
+    "price": 48,
+    "rating": 4.1,
+    "rating_count": 122,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Potato",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "1kg",
+    "price": 32,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Potato",
+    "category": "Vegetables",
+    "brand": "Freshveg",
+    "size": "1kg",
+    "price": 38,
+    "rating": 4.0,
+    "rating_count": 1023,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Tomato",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "1kg",
+    "price": 45,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Tomato",
+    "category": "Vegetables",
+    "brand": "Freshveg",
+    "size": "1kg",
+    "price": 52,
+    "rating": 4.0,
+    "rating_count": 439,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Ginger",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "250g",
+    "price": 30,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Garlic",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "250g",
+    "price": 45,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Green Chilli",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "100g",
+    "price": 10,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Lemon",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "4 pcs",
+    "price": 20,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Coriander Leaves",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "1 bunch",
+    "price": 12,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Cucumber",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 25,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Cabbage",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "1 pc",
+    "price": 30,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Cauliflower",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "1 pc",
+    "price": 35,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Spinach",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "250g",
+    "price": 20,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Bottle Gourd",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "1 pc",
+    "price": 28,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Brinjal",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 30,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Capsicum",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 40,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Carrot",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 28,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Beans",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "250g",
+    "price": 25,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Green Peas",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 45,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Green Peas",
+    "category": "Vegetables",
+    "brand": "Frozen - Safal",
+    "size": "500g",
+    "price": 65,
+    "rating": 4.2,
+    "rating_count": 2253,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Okra (Bhindi)",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 32,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Bitter Gourd",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 35,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Radish",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 22,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Beetroot",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 30,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Sweet Corn",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "2 pcs",
+    "price": 30,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Mushroom",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "200g",
+    "price": 45,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Pumpkin",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 25,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Drumstick",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "250g",
+    "price": 30,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Ridge Gourd",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 28,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Snake Gourd",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 28,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Ash Gourd",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 25,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Colocasia (Arbi)",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 32,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Yam",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 35,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Sweet Potato",
+    "category": "Vegetables",
+    "brand": "loose",
+    "size": "500g",
+    "price": 30,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Apple",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "1kg",
+    "price": 180,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Apple",
+    "category": "Fruits",
+    "brand": "Washington",
+    "size": "1kg",
+    "price": 220,
+    "rating": 4.3,
+    "rating_count": 16,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Banana",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "1 dozen",
+    "price": 55,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Mango",
+    "category": "Fruits",
+    "brand": "Alphonso",
+    "size": "1kg",
+    "price": 250,
+    "rating": 4.5,
+    "rating_count": 5,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Papaya",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "1 pc",
+    "price": 40,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Pomegranate",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "1kg",
+    "price": 160,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Watermelon",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "1 pc",
+    "price": 60,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Orange",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "1kg",
+    "price": 90,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Grapes",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "500g",
+    "price": 70,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Pineapple",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "1 pc",
+    "price": 55,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Guava",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "500g",
+    "price": 40,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Kiwi",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "3 pcs",
+    "price": 85,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Chikoo",
+    "category": "Fruits",
+    "brand": "loose",
+    "size": "500g",
+    "price": 45,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Salt",
+    "category": "Grocery",
+    "brand": "Tata",
+    "size": "1kg",
+    "price": 28,
+    "rating": 4.5,
+    "rating_count": 2089,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Salt",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "500g",
+    "price": 15,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Sugar",
+    "category": "Grocery",
+    "brand": "Madhur",
+    "size": "1kg",
+    "price": 48,
+    "rating": 4.2,
+    "rating_count": 2318,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Jaggery",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "500g",
+    "price": 55,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Toor Dal",
+    "category": "Grocery",
+    "brand": "Tata Sampann",
+    "size": "1kg",
+    "price": 165,
+    "rating": 4.4,
+    "rating_count": 16,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Toor Dal",
+    "category": "Grocery",
+    "brand": "Fortune",
+    "size": "1kg",
+    "price": 158,
+    "rating": 4.1,
+    "rating_count": 2433,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Chana Dal",
+    "category": "Grocery",
+    "brand": "Tata Sampann",
+    "size": "1kg",
+    "price": 130,
+    "rating": 4.3,
+    "rating_count": 46,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Moong Dal",
+    "category": "Grocery",
+    "brand": "Tata Sampann",
+    "size": "1kg",
+    "price": 140,
+    "rating": 4.3,
+    "rating_count": 673,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Rajma",
+    "category": "Grocery",
+    "brand": "Tata Sampann",
+    "size": "1kg",
+    "price": 150,
+    "rating": 4.2,
+    "rating_count": 1413,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Chole (Kabuli Chana)",
+    "category": "Grocery",
+    "brand": "Tata Sampann",
+    "size": "1kg",
+    "price": 120,
+    "rating": 4.2,
+    "rating_count": 901,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Moong Whole",
+    "category": "Grocery",
+    "brand": "Tata Sampann",
+    "size": "1kg",
+    "price": 145,
+    "rating": 4.1,
+    "rating_count": 1398,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Basmati Rice",
+    "category": "Grocery",
+    "brand": "India Gate",
+    "size": "1kg",
+    "price": 145,
+    "rating": 4.5,
+    "rating_count": 15,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Basmati Rice",
+    "category": "Grocery",
+    "brand": "Daawat",
+    "size": "1kg",
+    "price": 138,
+    "rating": 4.2,
+    "rating_count": 14,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Sona Masoori Rice",
+    "category": "Grocery",
+    "brand": "Fortune",
+    "size": "5kg",
+    "price": 340,
+    "rating": 4.3,
+    "rating_count": 197,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Idli Rice",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "1kg",
+    "price": 60,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Rice Flour",
+    "category": "Grocery",
+    "brand": "Rajdhani",
+    "size": "500g",
+    "price": 45,
+    "rating": 4.0,
+    "rating_count": 2216,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Ragi Flour",
+    "category": "Grocery",
+    "brand": "Aashirvaad",
+    "size": "500g",
+    "price": 65,
+    "rating": 4.2,
+    "rating_count": 15,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Wheat Flour (Atta)",
+    "category": "Grocery",
+    "brand": "Aashirvaad",
+    "size": "5kg",
+    "price": 275,
+    "rating": 4.6,
+    "rating_count": 12,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Wheat Flour (Atta)",
+    "category": "Grocery",
+    "brand": "Fortune Chakki Fresh",
+    "size": "5kg",
+    "price": 260,
+    "rating": 4.3,
+    "rating_count": 2553,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Multigrain Atta",
+    "category": "Grocery",
+    "brand": "Aashirvaad",
+    "size": "5kg",
+    "price": 320,
+    "rating": 4.4,
+    "rating_count": 1501,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Sunflower Oil",
+    "category": "Grocery",
+    "brand": "Fortune",
+    "size": "1L",
+    "price": 165,
+    "rating": 4.3,
+    "rating_count": 2905,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Sunflower Oil",
+    "category": "Grocery",
+    "brand": "Saffola",
+    "size": "1L",
+    "price": 178,
+    "rating": 4.4,
+    "rating_count": 10,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Mustard Oil",
+    "category": "Grocery",
+    "brand": "Fortune",
+    "size": "1L",
+    "price": 175,
+    "rating": 4.2,
+    "rating_count": 346,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Groundnut Oil",
+    "category": "Grocery",
+    "brand": "Dhara",
+    "size": "1L",
+    "price": 210,
+    "rating": 4.3,
+    "rating_count": 433,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Ghee",
+    "category": "Grocery",
+    "brand": "Amul",
+    "size": "500ml",
+    "price": 295,
+    "rating": 4.7,
+    "rating_count": 1877,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Ghee",
+    "category": "Grocery",
+    "brand": "Patanjali",
+    "size": "500ml",
+    "price": 270,
+    "rating": 4.3,
+    "rating_count": 1514,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Butter",
+    "category": "Grocery",
+    "brand": "Amul",
+    "size": "500g",
+    "price": 255,
+    "rating": 4.6,
+    "rating_count": 14,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Milk",
+    "category": "Grocery",
+    "brand": "Amul Taaza",
+    "size": "500ml",
+    "price": 30,
+    "rating": 4.6,
+    "rating_count": 1113,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Milk",
+    "category": "Grocery",
+    "brand": "Mother Dairy",
+    "size": "500ml",
+    "price": 28,
+    "rating": 4.4,
+    "rating_count": 2819,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Buttermilk (Chaas)",
+    "category": "Grocery",
+    "brand": "Amul",
+    "size": "200ml",
+    "price": 15,
+    "rating": 4.3,
+    "rating_count": 2515,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Lassi",
+    "category": "Grocery",
+    "brand": "Amul",
+    "size": "200ml",
+    "price": 25,
+    "rating": 4.3,
+    "rating_count": 2207,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Curd",
+    "category": "Grocery",
+    "brand": "Amul",
+    "size": "400g",
+    "price": 45,
+    "rating": 4.5,
+    "rating_count": 689,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Curd",
+    "category": "Grocery",
+    "brand": "Mother Dairy",
+    "size": "400g",
+    "price": 42,
+    "rating": 4.3,
+    "rating_count": 1125,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Paneer",
+    "category": "Grocery",
+    "brand": "Amul",
+    "size": "200g",
+    "price": 95,
+    "rating": 4.5,
+    "rating_count": 2641,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Paneer",
+    "category": "Grocery",
+    "brand": "Mother Dairy",
+    "size": "200g",
+    "price": 90,
+    "rating": 4.3,
+    "rating_count": 919,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Bread",
+    "category": "Grocery",
+    "brand": "Britannia",
+    "size": "400g",
+    "price": 45,
+    "rating": 4.0,
+    "rating_count": 249,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Bread",
+    "category": "Grocery",
+    "brand": "Modern",
+    "size": "400g",
+    "price": 42,
+    "rating": 3.9,
+    "rating_count": 151,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Eggs",
+    "category": "Grocery",
+    "brand": "Farm Fresh",
+    "size": "6 pcs",
+    "price": 48,
+    "rating": 4.2,
+    "rating_count": 1663,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Eggs",
+    "category": "Grocery",
+    "brand": "Farm Fresh",
+    "size": "12 pcs",
+    "price": 90,
+    "rating": 4.2,
+    "rating_count": 884,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Tea",
+    "category": "Grocery",
+    "brand": "Tata Tea Premium",
+    "size": "250g",
+    "price": 130,
+    "rating": 4.4,
+    "rating_count": 2343,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Tea",
+    "category": "Grocery",
+    "brand": "Red Label",
+    "size": "250g",
+    "price": 125,
+    "rating": 4.3,
+    "rating_count": 1308,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Coffee",
+    "category": "Grocery",
+    "brand": "Bru",
+    "size": "100g",
+    "price": 145,
+    "rating": 4.2,
+    "rating_count": 2064,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Coffee",
+    "category": "Grocery",
+    "brand": "Nescafe Classic",
+    "size": "100g",
+    "price": 165,
+    "rating": 4.5,
+    "rating_count": 2653,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Turmeric Powder",
+    "category": "Grocery",
+    "brand": "Everest",
+    "size": "100g",
+    "price": 38,
+    "rating": 4.3,
+    "rating_count": 1104,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Turmeric Powder",
+    "category": "Grocery",
+    "brand": "MDH",
+    "size": "100g",
+    "price": 35,
+    "rating": 4.2,
+    "rating_count": 11,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Red Chilli Powder",
+    "category": "Grocery",
+    "brand": "Everest",
+    "size": "100g",
+    "price": 45,
+    "rating": 4.3,
+    "rating_count": 1774,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Red Chilli Powder",
+    "category": "Grocery",
+    "brand": "MDH",
+    "size": "100g",
+    "price": 42,
+    "rating": 4.2,
+    "rating_count": 1655,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Coriander Powder",
+    "category": "Grocery",
+    "brand": "Everest",
+    "size": "100g",
+    "price": 35,
+    "rating": 4.2,
+    "rating_count": 586,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Garam Masala",
+    "category": "Grocery",
+    "brand": "Everest",
+    "size": "100g",
+    "price": 55,
+    "rating": 4.4,
+    "rating_count": 392,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Garam Masala",
+    "category": "Grocery",
+    "brand": "MDH",
+    "size": "100g",
+    "price": 52,
+    "rating": 4.3,
+    "rating_count": 469,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Chaat Masala",
+    "category": "Grocery",
+    "brand": "MDH",
+    "size": "100g",
+    "price": 48,
+    "rating": 4.3,
+    "rating_count": 8,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Sambar Masala",
+    "category": "Grocery",
+    "brand": "MTR",
+    "size": "200g",
+    "price": 65,
+    "rating": 4.4,
+    "rating_count": 1749,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Biryani Masala",
+    "category": "Grocery",
+    "brand": "Everest",
+    "size": "100g",
+    "price": 60,
+    "rating": 4.3,
+    "rating_count": 1596,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Kitchen King Masala",
+    "category": "Grocery",
+    "brand": "MDH",
+    "size": "100g",
+    "price": 55,
+    "rating": 4.2,
+    "rating_count": 1937,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Amchur (Dry Mango Powder)",
+    "category": "Grocery",
+    "brand": "Everest",
+    "size": "100g",
+    "price": 40,
+    "rating": 4.1,
+    "rating_count": 2286,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Cumin Seeds",
+    "category": "Grocery",
+    "brand": "Everest",
+    "size": "100g",
+    "price": 60,
+    "rating": 4.3,
+    "rating_count": 67,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Mustard Seeds",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "100g",
+    "price": 25,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Fenugreek Seeds",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "100g",
+    "price": 22,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Kasuri Methi",
+    "category": "Grocery",
+    "brand": "Everest",
+    "size": "50g",
+    "price": 35,
+    "rating": 4.2,
+    "rating_count": 489,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Ajwain (Carom Seeds)",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "100g",
+    "price": 30,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Black Pepper",
+    "category": "Grocery",
+    "brand": "Everest",
+    "size": "50g",
+    "price": 55,
+    "rating": 4.3,
+    "rating_count": 2219,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Star Anise",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "50g",
+    "price": 45,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Cinnamon",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "50g",
+    "price": 35,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Cloves",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "50g",
+    "price": 60,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Cardamom",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "50g",
+    "price": 120,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Bay Leaf",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "25g",
+    "price": 20,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Asafoetida (Hing)",
+    "category": "Grocery",
+    "brand": "Everest",
+    "size": "50g",
+    "price": 65,
+    "rating": 4.2,
+    "rating_count": 2645,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Besan (Gram Flour)",
+    "category": "Grocery",
+    "brand": "Rajdhani",
+    "size": "1kg",
+    "price": 95,
+    "rating": 4.2,
+    "rating_count": 1222,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Poha",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "500g",
+    "price": 45,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Semolina (Suji)",
+    "category": "Grocery",
+    "brand": "Rajdhani",
+    "size": "1kg",
+    "price": 55,
+    "rating": 4.1,
+    "rating_count": 1878,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Sabudana",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "500g",
+    "price": 60,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Vermicelli",
+    "category": "Grocery",
+    "brand": "Bambino",
+    "size": "200g",
+    "price": 40,
+    "rating": 4.0,
+    "rating_count": 11,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Corn Flakes",
+    "category": "Grocery",
+    "brand": "Kellogg's",
+    "size": "500g",
+    "price": 210,
+    "rating": 4.3,
+    "rating_count": 751,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Oats",
+    "category": "Grocery",
+    "brand": "Quaker",
+    "size": "1kg",
+    "price": 180,
+    "rating": 4.5,
+    "rating_count": 455,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Muesli",
+    "category": "Grocery",
+    "brand": "Bagrry's",
+    "size": "500g",
+    "price": 220,
+    "rating": 4.3,
+    "rating_count": 1242,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Soya Chunks",
+    "category": "Grocery",
+    "brand": "Nutrela",
+    "size": "200g",
+    "price": 45,
+    "rating": 4.2,
+    "rating_count": 2099,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Glucose Biscuits",
+    "category": "Grocery",
+    "brand": "Parle-G",
+    "size": "200g",
+    "price": 20,
+    "rating": 4.4,
+    "rating_count": 646,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Cream Biscuits",
+    "category": "Grocery",
+    "brand": "Britannia Good Day",
+    "size": "150g",
+    "price": 30,
+    "rating": 4.3,
+    "rating_count": 681,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Rusk",
+    "category": "Grocery",
+    "brand": "Britannia",
+    "size": "300g",
+    "price": 55,
+    "rating": 4.1,
+    "rating_count": 2192,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Namkeen Mix",
+    "category": "Grocery",
+    "brand": "Haldiram's",
+    "size": "200g",
+    "price": 65,
+    "rating": 4.3,
+    "rating_count": 2473,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Namkeen Mix",
+    "category": "Grocery",
+    "brand": "Bikano",
+    "size": "200g",
+    "price": 60,
+    "rating": 4.1,
+    "rating_count": 99,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Instant Noodles",
+    "category": "Grocery",
+    "brand": "Maggi",
+    "size": "280g (4 pack)",
+    "price": 56,
+    "rating": 4.5,
+    "rating_count": 14,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Pasta",
+    "category": "Grocery",
+    "brand": "Sunfeast Pasta Treat",
+    "size": "400g",
+    "price": 95,
+    "rating": 4.1,
+    "rating_count": 1279,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Coconut",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "1 pc",
+    "price": 35,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Dry Coconut",
+    "category": "Grocery",
+    "brand": "loose",
+    "size": "200g",
+    "price": 60,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Cashews",
+    "category": "Grocery",
+    "brand": "Nutraj",
+    "size": "500g",
+    "price": 425,
+    "rating": 4.3,
+    "rating_count": 1006,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Cashews",
+    "category": "Grocery",
+    "brand": "Happilo",
+    "size": "200g",
+    "price": 180,
+    "rating": 4.0,
+    "rating_count": 342,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Almonds",
+    "category": "Grocery",
+    "brand": "Nutraj",
+    "size": "500g",
+    "price": 480,
+    "rating": 4.4,
+    "rating_count": 18,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Raisins",
+    "category": "Grocery",
+    "brand": "Nutraj",
+    "size": "200g",
+    "price": 95,
+    "rating": 4.2,
+    "rating_count": 2201,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Honey",
+    "category": "Grocery",
+    "brand": "Dabur",
+    "size": "500g",
+    "price": 210,
+    "rating": 4.4,
+    "rating_count": 545,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Peanut Butter",
+    "category": "Grocery",
+    "brand": "Pintola",
+    "size": "510g",
+    "price": 320,
+    "rating": 4.5,
+    "rating_count": 2271,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Chocolate Spread",
+    "category": "Grocery",
+    "brand": "Nutella",
+    "size": "350g",
+    "price": 375,
+    "rating": 4.6,
+    "rating_count": 19,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Tomato Ketchup",
+    "category": "Grocery",
+    "brand": "Kissan",
+    "size": "950g",
+    "price": 145,
+    "rating": 4.4,
+    "rating_count": 1753,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Tomato Ketchup",
+    "category": "Grocery",
+    "brand": "Maggi",
+    "size": "950g",
+    "price": 140,
+    "rating": 4.3,
+    "rating_count": 2228,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Soy Sauce",
+    "category": "Grocery",
+    "brand": "Ching's Secret",
+    "size": "200g",
+    "price": 65,
+    "rating": 4.2,
+    "rating_count": 2845,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Schezwan Sauce",
+    "category": "Grocery",
+    "brand": "Ching's Secret",
+    "size": "250g",
+    "price": 95,
+    "rating": 4.3,
+    "rating_count": 1296,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Mayonnaise",
+    "category": "Grocery",
+    "brand": "Veeba",
+    "size": "250g",
+    "price": 95,
+    "rating": 4.2,
+    "rating_count": 2771,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Mango Pickle",
+    "category": "Grocery",
+    "brand": "Mother's Recipe",
+    "size": "400g",
+    "price": 120,
+    "rating": 4.4,
+    "rating_count": 1814,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Papad",
+    "category": "Grocery",
+    "brand": "Lijjat",
+    "size": "200g",
+    "price": 65,
+    "rating": 4.3,
+    "rating_count": 1869,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Cornflour",
+    "category": "Grocery",
+    "brand": "Weikfield",
+    "size": "100g",
+    "price": 30,
+    "rating": 4.1,
+    "rating_count": 10,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Baking Powder",
+    "category": "Grocery",
+    "brand": "Weikfield",
+    "size": "100g",
+    "price": 35,
+    "rating": 4.0,
+    "rating_count": 3,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Baking Soda",
+    "category": "Grocery",
+    "brand": "Weikfield",
+    "size": "100g",
+    "price": 25,
+    "rating": 4.0,
+    "rating_count": 962,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Yeast",
+    "category": "Grocery",
+    "brand": "Gloripan",
+    "size": "50g",
+    "price": 45,
+    "rating": 4.1,
+    "rating_count": 49,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Custard Powder",
+    "category": "Grocery",
+    "brand": "Weikfield",
+    "size": "200g",
+    "price": 65,
+    "rating": 4.2,
+    "rating_count": 4,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Vanilla Ice Cream",
+    "category": "Grocery",
+    "brand": "Amul",
+    "size": "700ml",
+    "price": 150,
+    "rating": 4.4,
+    "rating_count": 148,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Frozen Paratha",
+    "category": "Grocery",
+    "brand": "ID Fresh",
+    "size": "5 pcs",
+    "price": 90,
+    "rating": 4.2,
+    "rating_count": 310,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Chocolate Bar",
+    "category": "Grocery",
+    "brand": "Cadbury Dairy Milk",
+    "size": "50g",
+    "price": 50,
+    "rating": 4.6,
+    "rating_count": 1160,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Aerated Drink",
+    "category": "Grocery",
+    "brand": "Coca-Cola",
+    "size": "750ml",
+    "price": 40,
+    "rating": 4.2,
+    "rating_count": 897,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Aerated Drink",
+    "category": "Grocery",
+    "brand": "Pepsi",
+    "size": "750ml",
+    "price": 40,
+    "rating": 4.1,
+    "rating_count": 2982,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Fruit Juice",
+    "category": "Grocery",
+    "brand": "Tropicana",
+    "size": "1L",
+    "price": 115,
+    "rating": 4.3,
+    "rating_count": 2358,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Fruit Juice",
+    "category": "Grocery",
+    "brand": "Real",
+    "size": "1L",
+    "price": 110,
+    "rating": 4.2,
+    "rating_count": 1015,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Energy Drink",
+    "category": "Grocery",
+    "brand": "Sting",
+    "size": "250ml",
+    "price": 20,
+    "rating": 4.0,
+    "rating_count": 1687,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Floor Cleaner",
+    "category": "Cleaning",
+    "brand": "Lizol",
+    "size": "975ml",
+    "price": 199,
+    "rating": 4.5,
+    "rating_count": 6,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Floor Cleaner",
+    "category": "Cleaning",
+    "brand": "Domex",
+    "size": "1L",
+    "price": 180,
+    "rating": 4.2,
+    "rating_count": 1471,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Glass Cleaner",
+    "category": "Cleaning",
+    "brand": "Colin",
+    "size": "500ml",
+    "price": 99,
+    "rating": 4.4,
+    "rating_count": 1932,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Toilet Cleaner",
+    "category": "Cleaning",
+    "brand": "Harpic",
+    "size": "1L",
+    "price": 115,
+    "rating": 4.5,
+    "rating_count": 241,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Toilet Cleaner",
+    "category": "Cleaning",
+    "brand": "Domex",
+    "size": "1L",
+    "price": 110,
+    "rating": 4.3,
+    "rating_count": 2666,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Bathroom Cleaner",
+    "category": "Cleaning",
+    "brand": "Harpic Bathroom",
+    "size": "500ml",
+    "price": 105,
+    "rating": 4.3,
+    "rating_count": 15,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Phenyl",
+    "category": "Cleaning",
+    "brand": "Kiwikleen",
+    "size": "1L",
+    "price": 85,
+    "rating": 4.0,
+    "rating_count": 467,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Dishwash Liquid",
+    "category": "Cleaning",
+    "brand": "Vim",
+    "size": "500ml",
+    "price": 110,
+    "rating": 4.5,
+    "rating_count": 799,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Dishwash Liquid",
+    "category": "Cleaning",
+    "brand": "Pril",
+    "size": "425ml",
+    "price": 99,
+    "rating": 4.2,
+    "rating_count": 594,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Dishwash Bar",
+    "category": "Cleaning",
+    "brand": "Vim",
+    "size": "155g x3",
+    "price": 45,
+    "rating": 4.4,
+    "rating_count": 1160,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Detergent Powder",
+    "category": "Cleaning",
+    "brand": "Surf Excel",
+    "size": "1kg",
+    "price": 130,
+    "rating": 4.5,
+    "rating_count": 328,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Detergent Powder",
+    "category": "Cleaning",
+    "brand": "Ariel",
+    "size": "1kg",
+    "price": 145,
+    "rating": 4.4,
+    "rating_count": 2274,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Detergent Liquid",
+    "category": "Cleaning",
+    "brand": "Surf Excel Matic",
+    "size": "1L",
+    "price": 220,
+    "rating": 4.4,
+    "rating_count": 3,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Fabric Softener",
+    "category": "Cleaning",
+    "brand": "Comfort",
+    "size": "860ml",
+    "price": 165,
+    "rating": 4.3,
+    "rating_count": 988,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Liquid Blue (Fabric Whitener)",
+    "category": "Cleaning",
+    "brand": "Ujala",
+    "size": "180ml",
+    "price": 45,
+    "rating": 4.1,
+    "rating_count": 18,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Stain Remover",
+    "category": "Cleaning",
+    "brand": "Vanish",
+    "size": "500ml",
+    "price": 210,
+    "rating": 4.3,
+    "rating_count": 1662,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Handwash",
+    "category": "Cleaning",
+    "brand": "Dettol",
+    "size": "200ml",
+    "price": 99,
+    "rating": 4.5,
+    "rating_count": 694,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Handwash",
+    "category": "Cleaning",
+    "brand": "Lifebuoy",
+    "size": "190ml",
+    "price": 85,
+    "rating": 4.2,
+    "rating_count": 1619,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Hand Sanitizer",
+    "category": "Cleaning",
+    "brand": "Dettol",
+    "size": "200ml",
+    "price": 120,
+    "rating": 4.4,
+    "rating_count": 1883,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Room Freshener",
+    "category": "Cleaning",
+    "brand": "Godrej Aer",
+    "size": "220ml",
+    "price": 165,
+    "rating": 4.3,
+    "rating_count": 2873,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Air Freshener Spray",
+    "category": "Cleaning",
+    "brand": "Odonil",
+    "size": "270ml",
+    "price": 145,
+    "rating": 4.2,
+    "rating_count": 2296,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Naphthalene Balls",
+    "category": "Cleaning",
+    "brand": "Odopic",
+    "size": "200g",
+    "price": 55,
+    "rating": 4.0,
+    "rating_count": 2013,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Mosquito Repellent",
+    "category": "Cleaning",
+    "brand": "Good Knight",
+    "size": "45ml refill",
+    "price": 85,
+    "rating": 4.4,
+    "rating_count": 12,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Mosquito Repellent",
+    "category": "Cleaning",
+    "brand": "All Out",
+    "size": "45ml refill",
+    "price": 80,
+    "rating": 4.3,
+    "rating_count": 259,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Cockroach Gel",
+    "category": "Cleaning",
+    "brand": "HIT",
+    "size": "35g",
+    "price": 145,
+    "rating": 4.3,
+    "rating_count": 2240,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Rat Glue Trap",
+    "category": "Cleaning",
+    "brand": "Lizol",
+    "size": "1 pc",
+    "price": 40,
+    "rating": 3.9,
+    "rating_count": 13,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Garbage Bags",
+    "category": "Cleaning",
+    "brand": "Ecogen",
+    "size": "30 pcs, Medium",
+    "price": 95,
+    "rating": 4.2,
+    "rating_count": 18,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Scrub Pad",
+    "category": "Cleaning",
+    "brand": "Scotch-Brite",
+    "size": "2 pcs",
+    "price": 45,
+    "rating": 4.3,
+    "rating_count": 2195,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Utensil Scrub Bar",
+    "category": "Cleaning",
+    "brand": "Vim",
+    "size": "1 pc",
+    "price": 20,
+    "rating": 4.2,
+    "rating_count": 19,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Sponge Wipe",
+    "category": "Cleaning",
+    "brand": "Scotch-Brite",
+    "size": "1 pc",
+    "price": 35,
+    "rating": 4.1,
+    "rating_count": 8,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Wet Wipes",
+    "category": "Cleaning",
+    "brand": "Bella",
+    "size": "80 pcs",
+    "price": 145,
+    "rating": 4.2,
+    "rating_count": 5,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Broom",
+    "category": "Cleaning",
+    "brand": "Gala",
+    "size": "1 pc",
+    "price": 120,
+    "rating": 4.2,
+    "rating_count": 983,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Mop",
+    "category": "Cleaning",
+    "brand": "Scotch-Brite",
+    "size": "1 pc",
+    "price": 250,
+    "rating": 4.3,
+    "rating_count": 2353,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Cleaning Gloves",
+    "category": "Cleaning",
+    "brand": "Tuffy",
+    "size": "1 pair",
+    "price": 55,
+    "rating": 4.0,
+    "rating_count": 2455,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Shoe Polish",
+    "category": "Cleaning",
+    "brand": "Cherry Blossom",
+    "size": "50ml",
+    "price": 45,
+    "rating": 4.1,
+    "rating_count": 5,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Shoe Brush",
+    "category": "Cleaning",
+    "brand": "loose",
+    "size": "1 pc",
+    "price": 60,
+    "rating": null,
+    "rating_count": null,
+    "platform": "Blinkit"
+  },
+  {
+    "item": "Toilet Paper",
+    "category": "Cleaning",
+    "brand": "Origami",
+    "size": "4 rolls",
+    "price": 145,
+    "rating": 4.3,
+    "rating_count": 2410,
+    "platform": "Zepto"
+  },
+  {
+    "item": "Tissue Paper",
+    "category": "Cleaning",
+    "brand": "Origami",
+    "size": "100 pulls",
+    "price": 65,
+    "rating": 4.2,
+    "rating_count": 1315,
+    "platform": "Blinkit"
+  }
+]

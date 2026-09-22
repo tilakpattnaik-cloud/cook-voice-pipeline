@@ -1,0 +1,6 @@
+﻿faster-whisper
+streamlit
+python-dotenv
+ollama
+sentence-transformers
+chromadb

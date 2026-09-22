@@ -1,0 +1,20 @@
+{
+  "household_id": "household_01",
+  "members": 3,
+  "meal_timings": {"breakfast": "08:00", "lunch": "13:30", "dinner": "20:00"},
+  "cuisine_preferences": ["North Indian", "Bengali"],
+  "dietary_constraints": ["vegetarian"],
+  "cook": {
+    "phone": "simulated",
+    "language": "Bengali",
+    "literacy": "low"
+  },
+  "monthly_budget": 12000,
+  "wallet_balance": 2500,
+  "preferred_platforms": ["Blinkit"],
+  "known_sku_history": {
+    "onion": {"brand": "loose", "typical_size": "1kg", "typical_qty": 1},
+    "milk": {"brand": "Amul", "typical_size": "500ml", "typical_qty": 2},
+    "salt": {"brand": "Tata", "typical_size": "1kg", "typical_qty": 1}
+  }
+}
